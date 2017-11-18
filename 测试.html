@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>测试</title>
+</head>
+<body>
+	<ul>
+		<li class="item1">1</li>
+		<li class="item2">2</li>
+		<li class="item3">3</li>
+		<li class="item4">4</li>
+		<li class="item5">5</li>
+	</ul>
+	
+</body>
+</html>
+<script src="test.js"></script>
+<script type="text/javascript">
+// console.time("time")  
+// var items = [];
+
+// for(var i = 0; i < 100000; i++){
+//    items.push({index: i});
+// }
+// console.timeEnd("time")
+
+var a = {
+    b:1,
+    c:2,
+    d:3
+}
+function json_array(data){  
+    var arr=[] ;  
+    for( var i in data ){
+        arr.push( [i , data[i]] )
+    }  
+    return arr;    
+}  
+console.log( json_array(a) ); 
+
+
+
+</script>
